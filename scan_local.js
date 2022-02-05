@@ -6,11 +6,12 @@
 /////////////////////////////////////////
 const { exec } = require("child_process");
 var mysql = require('mysql');
+// podaci za spajanje na bazu (mysql)
 var connection = mysql.createConnection({
   host: "localhost",
-  user: "node",
-  password: "node",
-  database: "node"
+  user: "user",
+  password: "password",
+  database: "database"
 });
 
 //var dd = new Date();
